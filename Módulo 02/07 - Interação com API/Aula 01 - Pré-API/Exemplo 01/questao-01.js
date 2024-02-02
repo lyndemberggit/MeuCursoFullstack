@@ -7,15 +7,28 @@ function teste(){
 */
 
 /*
-setInterval(teste, 2000)
+setInterval(teste, 2000)  execulta um funcao a cada x tempo
 
 function teste(){
     document.getElementById("demo").textContent = document.getElementById("demo").textContent + "Testando"
 }
 */
+/* setTimeout(acionar, 8000)
 
-setInterval(acionar, 2000)
+ function acionar(){
+    alert("lyndemberg rei")
+ }*/
+ setInterval(teste , 2000)
 
-function acionar(){
-    document.getElementById("demo").textContent += "Estuda"
-}
+    function teste(){
+        let elemento = document.getElementById("demo")
+        elemento.textContent = elemento.textContent + "Estuda"
+    }
+
+
+
+
+
+
+
+
