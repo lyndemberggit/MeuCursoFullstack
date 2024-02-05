@@ -25,11 +25,11 @@ alert(senai)*/
  }
  alert(somar(" olá ", 5))*/
 
- let  num1 = (parseInt( prompt ("Digite um numero:")))
+ /*let  num1 = (parseInt( prompt ("Digite um numero:")))
  let  num2 = ( parseInt(prompt ("Digite outro numero")))
 
  function somar(num1, num2){
   return (num1 + num2)
  }
 
- alert(somar(num1 , num2))
+ alert(somar(num1 , num2))*/
