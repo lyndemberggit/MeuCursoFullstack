@@ -1,4 +1,4 @@
-async function olx(){
+..async function olx(){
  let busca = await fetch("carros.json")
  let convertido = await busca.json()
 
