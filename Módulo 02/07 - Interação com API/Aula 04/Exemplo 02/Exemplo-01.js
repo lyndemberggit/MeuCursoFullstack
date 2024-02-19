@@ -1,11 +1,22 @@
-..async function olx(){
- let busca = await fetch("carros.json")
- let convertido = await busca.json()
+async function imprimir(){
+ let busca = await fetch("tarefas.json")
+ let tarefas = await busca.json()
 
- //for(let x in convertido){
-    alert(convertido[1].modelo)//Imprime  a veriavel convertido  1 com moedelo
- //}
+ let busca2 = await fetch ("cores.json")
+ let cores = await busca2.json()
 
+ for(let x in tarefas){
+   let indice = parseInt(Math.random() * 4)
+
+   document.body.innerHTML += `
+
+   <p style=' color: ${ cores}
+   
+   
+   `
+
+
+ }
 }
 
 olx()
