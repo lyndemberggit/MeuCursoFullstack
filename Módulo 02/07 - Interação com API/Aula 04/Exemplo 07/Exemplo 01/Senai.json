@@ -1,0 +1,27 @@
+[
+    {
+        
+        "nome": "lyndemberg",
+        "sobreNome":"Rodrigues",
+        "Idade":45,
+        "Etnia":"Pardo"
+
+    },
+
+    {   
+        
+        "nome": "Jean ",
+        "sobreNome":"Carlos",
+        "Idade":45,
+        "Etnia":"Pardo"
+    },
+
+    {   
+        
+        "nome": "Francisca",
+        "sobreNome":"lima",
+        "Idade":46,
+        "Etnia":"Pardo"
+    }
+    
+]
