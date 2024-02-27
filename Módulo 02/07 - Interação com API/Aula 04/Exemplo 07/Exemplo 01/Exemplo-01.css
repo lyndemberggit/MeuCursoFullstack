@@ -1,18 +1,25 @@
+body{
+    background-color: rgb(251, 246, 246);
+}
+
 .lista-card{
     
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20px;
 
 
 
 }
 
 .card{
+    font-family: sans-serif;
+    font-size: 20px;
     border: 1px solid red;
     width: fit-content;
     padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,4 +27,22 @@
 
 .lista-card .card h3{
     margin-top: 0px;
+}
+
+img{
+    margin:10px;
+    margin-inline-start: 30%;
+}
+
+button{
+    display: flex;
+    color: blue;
+}
+
+footer, p{
+    color: brown;
+    background-color: gray;
+    text-align: center;
+    margin: 0px;
+
 }

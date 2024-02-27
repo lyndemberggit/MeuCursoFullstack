@@ -1,10 +1,11 @@
-async function busca(){
-let  pegar = await fetch("Senai.json")
-let luz = await pegar.json()
+async function busca(){//Criando a função assincrona chamado busca
+let  pegar = await fetch("Senai.json")// foi criada a variavel pagar e atribuida a ela a busca do objeto resposta(senai.json)com o comando fetch 
+// e esperado com o comando await.
+let luz = await pegar.json()// cria a variavel luz e atribuida a ela a conversão do arquivo pegar.json.
 
-let grupoDiv = document.getElementById("lista-card")
+let grupoDiv = document.getElementById("lista-card")//criado a variável grupo div e foi atribuida a busca do document no html
 
-    for(let lugar of luz){
+    for(let lugar of luz){// Atualiza o conteudo do elemento "grupoDiv" adicionando um novo bloco de html
         grupoDiv.innerHTML += ` 
     
 
@@ -22,4 +23,4 @@ let grupoDiv = document.getElementById("lista-card")
     }
 }
 
-busca()
+busca()//chamando a função.
