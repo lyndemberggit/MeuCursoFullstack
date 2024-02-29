@@ -19,7 +19,7 @@ let grupoDiv = document.getElementById("lista-card")//criado a variável grupo d
                 <h3>${lugar.Etnia}</h3>
 
             </div>
-        `
+        ` 
     }
 }
 
