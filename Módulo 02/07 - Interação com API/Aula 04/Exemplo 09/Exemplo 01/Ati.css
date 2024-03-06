@@ -1,0 +1,7 @@
+.lista-card{
+    display: flex;
+    column-gap: 10px;
+}
+.card{
+    border: 1px solid blue;
+}
